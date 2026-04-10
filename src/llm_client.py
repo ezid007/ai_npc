@@ -85,9 +85,9 @@ class LLMClient:
             max_retries=max_retries,
         )
 
-        # print(f"[LLMClient] 초기화 완료: {self.model}")
-        # print(f"[LLMClient] 연결: {self.base_url}")
-        # print("[LLMClient] .env 에서 설정을 로드했습니다.")
+        print(f"[LLMClient] 초기화 완료: {self.model}")
+        print(f"[LLMClient] 연결: {self.base_url}")
+        print("[LLMClient] .env 에서 설정을 로드했습니다.")
 
     def chat(
         self,
