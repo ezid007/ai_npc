@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """pgvector 연결 테스트 스크립트"""
 
 import psycopg

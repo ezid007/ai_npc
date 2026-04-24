@@ -5,7 +5,6 @@
 
 # OpenAI API 호환 클라이언트 (외부 vLLM 서버 연결용)
 openai>=1.50.0,<2.0.0            # base_url 을 vLLM 서버로 설정 가능
-                                  # Python 3.8+ 지원
 
 # 환경 관리
 python-dotenv>=1.0.0,<2.0.0      # 환경 변수 관리 (.env 파일 사용)
