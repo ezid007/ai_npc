@@ -20,10 +20,6 @@ ai_npc/
 │   ├── llm_client.py       # vLLM API 클라이언트
 │   ├── conversation.py     # NPC 대화 시스템
 │   └── test_llm_stream.py  # 스트리밍 테스트
-├── docs/                   # 문서
-│   ├── pgvector_setup.md
-│   ├── pgvector_windows_install.md
-│   └── rag_guide.md
 ├── .env                    # 환경 변수 (API 키 등)
 ├── .env.example            # 환경 변수 예시
 ├── requirements.txt        # Python 의존성
@@ -68,7 +64,7 @@ VLLM_MODEL_NAME=your-model-name
 python src/conversation.py
 ```
 
-## 📚 학습 로드맵
+## 📖 학습 로드맵
 
 1. **LLM 기본기**: Transformer, Attention Mechanism
 2. **vLLM API**: OpenAI Compatible API 사용법
@@ -77,6 +73,10 @@ python src/conversation.py
 5. **RLHF**: Reward Modeling, PPO
 6. **게임 엔진 통합**: Unreal Engine, Unity
 
-## 📖 참고 자료
+## 🔧 기술 스택
 
-- [LLM 기술 스택](./smilegate-ai-npc-technical-stack.md)
+- **LLM**: vLLM (OpenAI Compatible API)
+- **Vector DB**: PostgreSQL + pgvector
+- **RAG**: 임베딩, 벡터 검색, 문서 분할
+- **Fine-tuning**: LoRA, QLoRA
+- **Platform**: Windows (PowerShell, Visual Studio Build Tools)
